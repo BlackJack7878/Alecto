@@ -1,0 +1,10 @@
+#header {
+  width: 100%;
+  background-image: url("../img/header/Background.jpg");
+  background-position: center;
+  background-size: cover; }
+  #header-content {
+    width: 1180px;
+    margin: auto; }
+  #header-logo {
+    margin-top: 57px; }

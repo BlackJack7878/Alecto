@@ -1,0 +1,368 @@
+@import url(../../bower_components/normalize.css/normalize.css);
+@import url(../../bower_components/unslider/dist/css/unslider.css);
+@import url(../../bower_components/unslider/dist/css/unslider-dots.css);
+.bold {
+  font-weight: 700; }
+
+body {
+  min-width: 1240px;
+  letter-spacing: 0.25px; }
+
+ul, li, body, a {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.main_color {
+  color: #17daa3; }
+
+.content {
+  width: 1180px;
+  margin: auto;
+  text-align: center; }
+
+.block-header {
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  color: #576671;
+  font-weight: 200;
+  line-height: 76px;
+  margin: 0;
+  letter-spacing: 0.25px; }
+
+.block-header-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 96px;
+  color: #87949e;
+  letter-spacing: 0.25px; }
+
+.block-button {
+  display: inline-block;
+  padding: 8px 39px;
+  background-color: #17daa3;
+  color: white;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  line-height: 24px;
+  font-size: 14px;
+  border-radius: 20px;
+  letter-spacing: 0.25px;
+  transition: all 1s ease;
+  border: 2px solid transparent; }
+  .block-button:hover {
+    border-color: #17daa3;
+    background-color: white;
+    color: #17daa3; }
+
+#header {
+  width: 100%;
+  height: 854px;
+  background-image: url("../img/header/Background.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  #header-content {
+    width: 1180px;
+    height: 854px;
+    position: relative;
+    margin: auto;
+    text-align: center; }
+  #header-logo {
+    margin-top: 46px;
+    position: absolute;
+    left: 0px; }
+  #header-menu {
+    display: inline-block;
+    position: absolute;
+    right: 43px;
+    margin-top: 52px; }
+    #header-menu .header-menu-button {
+      display: inline-block;
+      text-transform: capitalize;
+      font-size: 11px;
+      line-height: 24px;
+      text-align: center;
+      font-weight: 700;
+      font-family: "Raleway", sans-serif;
+      color: #ffffff;
+      padding-left: 27px;
+      padding-right: 27px;
+      transition: all .5s ease;
+      letter-spacing: 0.25px; }
+      #header-menu .header-menu-button:hover {
+        color: #17daa3; }
+  #header .unslider-arrow.next {
+    position: absolute;
+    right: 0px;
+    top: 367px;
+    content: " ";
+    display: inline-block;
+    background-image: url("../img/header/Right-arrow.png");
+    width: 22px;
+    height: 42px;
+    cursor: pointer; }
+  #header .unslider-arrow.prev {
+    position: absolute;
+    left: 0px;
+    top: 367px;
+    content: "";
+    display: inline-block;
+    background-image: url("../img/header/Left-arrow.png");
+    width: 22px;
+    height: 42px;
+    cursor: pointer; }
+  #header .unslider-nav {
+    margin-top: 57px; }
+  #header-slider {
+    text-align: center;
+    margin-top: 274px;
+    position: relative; }
+    #header-slider .header-slider-slide {
+      color: #ffffff;
+      line-height: 60px;
+      font-family: "Raleway", sans-serif;
+      font-size: 60px;
+      font-weight: 100;
+      letter-spacing: 0.25px; }
+      #header-slider .header-slider-slide .slide-second-text {
+        font-size: 19px; }
+    #header-slider .slide-button {
+      display: inline-block;
+      font-size: 11px;
+      color: #ffffff;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      text-align: center;
+      line-height: 19px;
+      letter-spacing: 0.25px;
+      padding: 8px 38px;
+      border: 2px solid #ffffff;
+      border-radius: 20px;
+      transition: all .5s ease; }
+      #header-slider .slide-button:hover {
+        border-color: #17daa3;
+        color: #17daa3; }
+  #header-down-arrow {
+    position: absolute;
+    bottom: 47px;
+    margin-left: 50%;
+    left: -11px; }
+
+#about-us-header {
+  padding-top: 64px;
+  margin-bottom: 12px; }
+
+#about-us .about-us-item {
+  display: inline-block;
+  position: relative;
+  width: 256px;
+  margin-top: 88px;
+  letter-spacing: 0.25px;
+  margin-left: 19px; }
+  #about-us .about-us-item-img {
+    width: 145px;
+    height: 145px;
+    background-color: rgba(135, 148, 158, 0.15);
+    border-radius: 50%;
+    margin-left: 55px;
+    transition: all 0.3s ease;
+    background-repeat: no-repeat; }
+    #about-us .about-us-item-img:hover {
+      background-color: #17daa3; }
+  #about-us .about-us-item #about-us-item-img-1 {
+    background-image: url("../img/body/Rocket.png");
+    background-position: 50px 50px; }
+    #about-us .about-us-item #about-us-item-img-1:hover {
+      background-image: url("../img/body/Rocket-hover.png"); }
+  #about-us .about-us-item #about-us-item-img-2 {
+    background-image: url("../img/body/Atom.png");
+    background-position: 53px 50px; }
+    #about-us .about-us-item #about-us-item-img-2:hover {
+      background-image: url("../img/body/Atom-hover.png"); }
+  #about-us .about-us-item #about-us-item-img-3 {
+    background-image: url("../img/body/Activity.png");
+    background-position: 43px 50px; }
+    #about-us .about-us-item #about-us-item-img-3:hover {
+      background-image: url("../img/body/Activity-hover.png"); }
+  #about-us .about-us-item #about-us-item-img-4 {
+    background-image: url("../img/body/Cap.png");
+    background-position: 45px 50px; }
+    #about-us .about-us-item #about-us-item-img-4:hover {
+      background-image: url("../img/body/Cap-hover.png"); }
+  #about-us .about-us-item-name {
+    font-size: 30px;
+    line-height: 96px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin-top: 33px; }
+  #about-us .about-us-item-description {
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #87949e; }
+
+#about-us-btn {
+  margin-top: 84px;
+  margin-bottom: 90px; }
+
+#awsome {
+  background-color: #f9f9fa; }
+  #awsome-img {
+    float: left;
+    width: 50%;
+    display: inline-block; }
+    #awsome-img img {
+      vertical-align: middle; }
+  #awsome-info {
+    float: left;
+    text-align: left;
+    width: 50%;
+    display: inline-block; }
+    #awsome-info-header {
+      margin-top: 112px; }
+    #awsome-info-text {
+      letter-spacing: 0.25px;
+      font-size: 14px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      color: #87949e;
+      line-height: 32px;
+      margin-top: 44px; }
+    #awsome-info-btn {
+      margin-top: 56px;
+      margin-bottom: 132px; }
+  #awsome:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both; }
+
+#hope-info {
+  float: left;
+  text-align: left;
+  width: 50%;
+  display: inline-block; }
+  #hope-info-header {
+    margin-top: 112px; }
+  #hope-info-text {
+    letter-spacing: 0.25px;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #87949e;
+    line-height: 32px;
+    margin-top: 44px; }
+  #hope-info-btn {
+    margin-top: 56px;
+    margin-bottom: 132px; }
+
+#hope-img {
+  float: left;
+  width: 50%;
+  display: inline-block; }
+  #hope-img img {
+    vertical-align: middle; }
+
+#hope:after {
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
+#opinion {
+  background-image: url("../img/body/opinions-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  letter-spacing: 0.25px;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 115px; }
+  #opinion .opinion-slider-slide .opinion-slider-text-1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    line-height: 96px;
+    font-weight: 300;
+    color: #ffffff; }
+  #opinion .opinion-slider-slide .opinion-slider-text-2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #777777; }
+  #opinion .unslider-arrow.next {
+    position: absolute;
+    right: 210px;
+    top: 50%;
+    content: " ";
+    display: inline-block;
+    background-image: url("../img/header/Right-arrow.png");
+    width: 22px;
+    height: 42px;
+    cursor: pointer; }
+  #opinion .unslider-arrow.prev {
+    position: absolute;
+    left: 210px;
+    top: 50%;
+    content: "";
+    display: inline-block;
+    background-image: url("../img/header/Left-arrow.png");
+    width: 22px;
+    height: 42px;
+    cursor: pointer; }
+  #opinion .unslider-nav {
+    margin-top: 94px; }
+
+#services {
+  background-color: #f9f9fa;
+  padding-bottom: 116px; }
+  #services-header {
+    padding-top: 80px; }
+  #services ul {
+    margin-top: 32px; }
+  #services .service {
+    display: inline-block;
+    margin-top: 64px;
+    width: 49%; }
+    #services .service-header {
+      text-align: left; }
+      #services .service-header-circle {
+        display: inline-block;
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 76px;
+        height: 76px;
+        border-radius: 50%;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center; }
+      #services .service-header-name {
+        display: inline-block;
+        font-size: 48px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 200;
+        color: #576671;
+        line-height: 48px;
+        transform: translateY(-18px); }
+    #services .service-text {
+      text-align: left;
+      margin-left: 164px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 38px;
+      color: #87949e; }
+  #services .service:nth-child(1) .service-header-circle {
+    background-image: url("../img/body/Portfolio.png"); }
+  #services .service:nth-child(2) .service-header-circle {
+    background-image: url("../img/body/Design.png"); }
+  #services .service:nth-child(3) .service-header-circle {
+    background-image: url("../img/body/Branding.png"); }
+  #services .service:nth-child(4) .service-header-circle {
+    background-image: url("../img/body/Development.png"); }

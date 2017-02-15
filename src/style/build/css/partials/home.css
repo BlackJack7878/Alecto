@@ -1,0 +1,10 @@
+#about-us .about-us-item {
+  display: inline-block;
+  width: 294px;
+  margin-top: 88px; }
+  #about-us .about-us-item-img {
+    width: 145px;
+    height: 145px;
+    background-color: rgba(135, 148, 158, 0.15);
+    border-radius: 50%;
+    margin-left: 73px; }

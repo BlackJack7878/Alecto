@@ -1,0 +1,16 @@
+#footer .content {
+  position: relative; }
+
+#footer-copyright {
+  position: absolute;
+  left: 0; }
+  #footer-copyright img {
+    display: inline-block; }
+  #footer-copyright-text {
+    display: inline-block; }
+
+#footer-menu {
+  position: absolute;
+  right: 0; }
+  #footer-menu a {
+    display: inline-block; }
